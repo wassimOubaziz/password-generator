@@ -1,0 +1,64 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #3b3b98;
+  color: white;
+  text-align: center;
+}
+
+body main {
+  padding: 20px;
+  background-color: #23235b;
+  max-width: 450px;
+}
+
+body main .result {
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 8px;
+}
+
+body main .result img {
+  width: 30px;
+  height: 30px;
+}
+
+body main .result h3 {
+  max-width: calc(100% - 40px);
+  font-size: 27px;
+  text-align: left;
+  height: auto;
+  word-wrap: break-word;
+}
+
+body main .result button {
+  cursor: pointer;
+}
+
+body main .choose .length input {
+  width: 50px;
+  padding: 3px;
+}
+
+body main .choose .result {
+  height: 41px;
+}
+
+body main .generate {
+  width: 100%;
+  font-size: 25px;
+  padding: 5px 0px;
+  cursor: pointer;
+}
